@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>绝对定位法</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    .main {
+      position: relative;
+      padding-left: 100px;
+      padding-right: 200px;
+      background-color: rgb(200, 246, 200);
+      height: 100%;
+    }
+
+    .left,
+    .right {
+      position: absolute;
+      top: 0;
+      background-color: skyblue;
+      height: 100%;
+    }
+
+    .left {
+      width: 100px;
+      left: 0;
+    }
+
+    .right {
+      width: 200px;
+      right: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main"></div>
+  <div class="left">left</div>
+  <div class="right">right</div>
+</body>
+
+</html>
