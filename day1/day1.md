@@ -47,7 +47,13 @@
 
 
 
-**参考**：[http缓存详解，http缓存推荐方案](https://www.lmlphp.com/user/3013/article/item/591742/)
+**参考**：
+
+[http缓存详解，http缓存推荐方案](https://www.lmlphp.com/user/3013/article/item/591742/)
+
+[面试官：说说浏览器缓存知识](https://www.mybj123.com/9930.html)
+
+
 
 
 
